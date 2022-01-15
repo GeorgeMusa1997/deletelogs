@@ -1,6 +1,6 @@
 #!/bin/bash
-pathname1='/u01/app/oracle/diag/rdbms/ecc/ecc/trace'
-pathname2='/u01/app/oracle/admin/ecc/adump'
+pathname1='/u01/app/oracle/diag/rdbms/*/*/trace'
+pathname2='/u01/app/oracle/admin/*/adump'
 # Check the path is exists or not
 if [ -d "$pathname1" ]; then
    cd "$pathname1"
